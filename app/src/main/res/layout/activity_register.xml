@@ -1,0 +1,11 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:padding="24dp"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <EditText android:id="@+id/etUsernameRegister" android:hint="Novo Usuário"
+        android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <EditText android:id="@+id/etPasswordRegister" android:hint="Senha"
+        android:inputType="textPassword" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <Button android:id="@+id/btnRegisterUser" android:text="Cadastrar"
+        android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</LinearLayout>
